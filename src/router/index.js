@@ -65,6 +65,76 @@ const router = createRouter({
       component: () => import('../views/HttpRequestView.vue'),
     },
     {
+      path: '/base64',
+      name: 'base64',
+      component: () => import('../views/Base64EncoderView.vue'),
+    },
+    {
+      path: '/url-encoder',
+      name: 'url-encoder',
+      component: () => import('../views/UrlEncoderView.vue'),
+    },
+    {
+      path: '/sql-formatter',
+      name: 'sql-formatter',
+      component: () => import('../views/SqlFormatterView.vue'),
+    },
+    {
+      path: '/in-clause',
+      name: 'in-clause',
+      component: () => import('../views/InClauseView.vue'),
+    },
+    {
+      path: '/jwt-decoder',
+      name: 'jwt-decoder',
+      component: () => import('../views/JwtDecoderView.vue'),
+    },
+    {
+      path: '/uuid-generator',
+      name: 'uuid-generator',
+      component: () => import('../views/UuidGeneratorView.vue'),
+    },
+    {
+      path: '/regex-tester',
+      name: 'regex-tester',
+      component: () => import('../views/RegexTesterView.vue'),
+    },
+    {
+      path: '/cron-expression',
+      name: 'cron-expression',
+      component: () => import('../views/CronExpressionView.vue'),
+    },
+    {
+      path: '/timestamp',
+      name: 'timestamp',
+      component: () => import('../views/TimestampConverterView.vue'),
+    },
+    {
+      path: '/docker-compose-converter',
+      name: 'docker-compose-converter',
+      component: () => import('../views/DockerComposeConverterView.vue'),
+    },
+    {
+      path: '/docker-command-builder',
+      name: 'docker-command-builder',
+      component: () => import('../views/DockerCommandBuilderView.vue'),
+    },
+    {
+      path: '/dockerfile-generator',
+      name: 'dockerfile-generator',
+      component: () => import('../views/DockerfileGeneratorView.vue'),
+    },
+    {
+      path: '/docker-compose-validator',
+      name: 'docker-compose-validator',
+      component: () => import('../views/DockerComposeValidatorView.vue'),
+    },
+    {
+      path: '/docker-run-to-compose',
+      name: 'docker-run-to-compose',
+      component: () => import('../views/DockerRunToComposeView.vue'),
+    },
+    {
       path: '/about',
       name: 'about',
       component: () => import('../views/AboutView.vue'),

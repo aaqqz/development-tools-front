@@ -62,6 +62,17 @@ const toolCategories = [
       { name: 'Markdown Preview', path: '/markdown-preview' },
     ],
   },
+  {
+    name: 'Docker Tools',
+    icon: '🐳',
+    tools: [
+      { name: 'Compose Converter', path: '/docker-compose-converter' },
+      { name: 'Command Builder', path: '/docker-command-builder' },
+      { name: 'Dockerfile Generator', path: '/dockerfile-generator' },
+      { name: 'Compose Validator', path: '/docker-compose-validator' },
+      { name: 'Run → Compose', path: '/docker-run-to-compose' },
+    ],
+  },
 ]
 </script>
 
